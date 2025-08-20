@@ -1,7 +1,7 @@
 # xiaYue_Pro - Burp Suite 越权检测插件
 
 > **版本**: 2.3  
-> **作者**: xiaYue Team  
+> **修改**: NOVASEC Team  
 > **兼容性**: Burp Suite Professional 2020.1+
 
 ## 🚀 插件简介
@@ -160,19 +160,6 @@ OPTIONS,HEAD,TRACE
 - **静态资源过滤**: 自动过滤常见静态文件扩展名
 - **请求去重**: 基于智能MD5算法的请求去重
 - **响应验证**: 自动验证响应有效性，跳过空响应
-
-## 📁 文件结构
-
-```
-xiaYue_Pro/
-├── src/main/java/burp/
-│   └── BurpExtender.java          # 主程序文件
-├── target/
-│   └── classes/                   # 编译后的类文件
-├── pom.xml                        # Maven配置文件
-├── README.md                      # 说明文档
-└── xiaYue_pro_config.properties  # 配置文件
-```
 
 ## 🚨 注意事项
 
